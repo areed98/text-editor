@@ -20,6 +20,7 @@ module.exports = () => {
     plugins: [
       new HtmlWebpackPlugin({
         template: "./index.html",
+        favicon: "./favicon.ico",
         title: "Text Editor",
       }),
       new InjectManifest({
@@ -27,8 +28,8 @@ module.exports = () => {
         swDest: "service-worker.js",
       }),
       new WebpackPwaManifest({
-        name: "Text Editor",
-        short_name: "Text Editor",
+        name: "Just Another Text Editor",
+        short_name: "J.A.T.E.",
         description: "Edit notes and code",
         background_color: "#093d7d",
         theme_color: "#093d7d",
