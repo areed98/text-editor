@@ -10,6 +10,7 @@ window.addEventListener('beforeinstallprompt', (event) => {
 });
 
 // TODO: Implement a click event handler on the `butInstall` element
+// Button event listener added, when clicked will install the app
 butInstall.addEventListener('click', async () => {
     if(!promptEvent) {
         butInstall.setAttribute('disabled', true);
@@ -26,6 +27,7 @@ butInstall.addEventListener('click', async () => {
 });
 
 // TODO: Add an handler for the `appinstalled` event
+// If the app is already installed, it will not install the app again, but it will tell you it is installed already.
 window.addEventListener('appinstalled', (event) => {
     console.log('App installed');
 });
