@@ -23,7 +23,7 @@
 ---
   ## [Usage](#table-of-contents)
 
-  To use this application, you may visit the  [Webpage](https://ar98-text-editor.herokuapp.com/) that is deployed on heroku for you to use.
+  To use this application, you may visit the  [Webpage](https://ar98-text-editor.herokuapp.com/) that is deployed on heroku for you to use. ![Preview of the Website](./assets/images/JATE.png)
 
 ---
   ## [License](#table-of-contents)
